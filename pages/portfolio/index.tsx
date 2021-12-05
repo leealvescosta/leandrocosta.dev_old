@@ -75,10 +75,7 @@ export default function Portfolio(): JSX.Element {
         <h1>Projetos</h1>
 
         <Project>
-          <img
-            src="/assets/logo_crescer.png"
-            alt="Plataforma Crescer - Sicredi"
-          />
+          <img src="/assets/crescer.png" alt="Plataforma Crescer - Sicredi" />
           <Text>
             <strong>
               - Função:
@@ -105,7 +102,7 @@ export default function Portfolio(): JSX.Element {
         </Project>
 
         <Project>
-          <img src="/assets/logo_crescer.png" alt="leandrocosta.dev logo" />
+          <img src="/assets/costa.png" alt="leandrocosta.dev logo" />
           <Text>
             <strong>
               - Função:

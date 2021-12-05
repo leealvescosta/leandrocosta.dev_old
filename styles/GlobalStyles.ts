@@ -89,9 +89,11 @@ export const GlobalStyle = createGlobalStyle<GlobalStyleProps>`
           textarea {
             border: 1px solid #383838;
             background-color: #383838;
+            color: #fafafa;
+          }
+          sgv {
             color: #181818;
           }
-
           #grey-text {
             color: #181818;
           }
@@ -112,8 +114,12 @@ export const GlobalStyle = createGlobalStyle<GlobalStyleProps>`
 
           input,
           textarea {
-            border: 1px solid #383838;
-            background-color: #383838;
+            border: 1px solid #181818;
+            background-color: #181818;
+            color: #fafafa;
+          }
+
+          svg {
             color: #181818;
           }
 
