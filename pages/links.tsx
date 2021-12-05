@@ -42,15 +42,6 @@ const Home: React.FC = () => {
             </Button>
           </a>
 
-          {/* <Link href="/blog">
-            <a>
-              <Button color="#2B83D0">
-                <BiBook size={30} color="#fff" />
-                <h1>Blog</h1>
-              </Button>
-            </a>
-          </Link> */}
-
           <a
             href="https://www.github.com/leealvescosta"
             target="_blank"
