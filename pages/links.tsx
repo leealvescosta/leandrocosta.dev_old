@@ -1,9 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-// import Link from 'next/link';
 import Head from 'next/head';
 import { FaGithub } from 'react-icons/fa';
-// import { BiBook } from 'react-icons/bi';
 import { BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 import { Container, Button, ButtonsContainer } from '../styles/links/styles';
@@ -16,7 +14,7 @@ const Home: React.FC = () => {
         <meta name="og:title" property="og:title" content="Leandro Costa" />
         <meta
           name="description"
-          content="Links de YouTube, canal do Discord, GitHub e cursos"
+          content="Links do GitHub, LinkedIn e Instagram"
         />
       </Head>
       <Container>

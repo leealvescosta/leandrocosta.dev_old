@@ -53,7 +53,7 @@ export default function Home(): JSX.Element {
             <h1>Developer</h1>
             <h2>
               Trabalho no desenvolvimento de aplicações web e mobile com foco na
-              experiência de usuário
+              experiência do usuário.
             </h2>
             <p id="green-text">
               Tecnologias: PowerBi, JavaScript, TypeScript, NodeJS, NextJS,

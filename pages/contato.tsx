@@ -36,7 +36,7 @@ export default function Contato(): JSX.Element {
       formData.description === ''
     ) {
       toast('📝 Favor preencher todos os campos', {
-        position: 'top-center',
+        position: 'top-right',
         autoClose: 4000,
         hideProgressBar: false,
         closeOnClick: true,
@@ -45,7 +45,7 @@ export default function Contato(): JSX.Element {
         progress: undefined,
         bodyStyle: {
           fontFamily: 'Source Sans Pro',
-          fontSize: 18,
+          fontSize: 16,
           color: '#272727',
         },
       });
@@ -53,14 +53,14 @@ export default function Contato(): JSX.Element {
     }
 
     toast.info('📤 Enviando e-mail...', {
-      position: 'top-center',
+      position: 'top-right',
       autoClose: 4000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      bodyStyle: { fontFamily: 'Source Sans Pro', fontSize: 20 },
+      bodyStyle: { fontFamily: 'Source Sans Pro', fontSize: 16 },
     });
 
     setLoading(1);
@@ -73,14 +73,14 @@ export default function Contato(): JSX.Element {
       .then((response) => {
         if (response.status === 200) {
           toast.success('🚀 E-mail enviado com sucesso!', {
-            position: 'top-center',
+            position: 'top-right',
             autoClose: 4000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-            bodyStyle: { fontFamily: 'Source Sans Pro', fontSize: 20 },
+            bodyStyle: { fontFamily: 'Source Sans Pro', fontSize: 16 },
           });
         } else {
           toast.error('😓 Erro ao enviar o e-mail', {
@@ -91,7 +91,7 @@ export default function Contato(): JSX.Element {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-            bodyStyle: { fontFamily: 'Source Sans Pro', fontSize: 20 },
+            bodyStyle: { fontFamily: 'Source Sans Pro', fontSize: 16 },
           });
         }
 
@@ -105,14 +105,14 @@ export default function Contato(): JSX.Element {
       })
       .catch(() => {
         toast.error('😓 Erro ao enviar o e-mail', {
-          position: 'top-center',
+          position: 'top-right',
           autoClose: 4000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
-          bodyStyle: { fontFamily: 'Source Sans Pro', fontSize: 20 },
+          bodyStyle: { fontFamily: 'Source Sans Pro', fontSize: 16 },
         });
 
         setLoading(0);
