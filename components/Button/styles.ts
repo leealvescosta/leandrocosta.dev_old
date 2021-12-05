@@ -12,15 +12,15 @@ export const StyledButton = styled.button<ButtonProps>`
   align-items: center;
   padding: 10px;
   border-radius: 6px;
-  background-color: ${(props) => props.backgroundColor || '#6473f5'};
-  color: ${(props) => props.color || '#fff'};
+  background-color: ${(props) => props.backgroundColor || '#383838'};
+  color: ${(props) => props.color || '#fafafa'};
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 21px;
   transition: background-color 200ms;
 
   &:hover {
-    background-color: ${(props) => props.backgroundHoverColor || '#8692ff'};
+    background-color: ${(props) => props.backgroundHoverColor || '#848484'};
   }
 
   svg {

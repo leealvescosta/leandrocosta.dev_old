@@ -20,10 +20,10 @@ export const RightText = styled.section`
 
   h1 {
     display: inline-block;
-    color: #000;
+    color: #fafafa;
     padding: 2px 4px;
-    font-size: 18px;
-    background-color: #64f4ac;
+    font-size: 20px;
+    background-color: #181818;
     font-weight: 700;
     border-radius: 4px;
     margin-bottom: 40px;

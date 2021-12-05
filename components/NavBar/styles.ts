@@ -9,12 +9,12 @@ interface ContainerProps {
 export const Background = styled.header`
   position: relative;
   background-color: #000;
-  color: #fff;
+  color: #fafafa;
   padding-top: 4px;
   padding-bottom: 4px;
 
   a {
-    color: #fff;
+    color: #fafafa;
     font-family: 'Source Sans Pro', sans-serif;
   }
 
@@ -28,7 +28,7 @@ export const MenuBar = styled.span`
   width: 30px;
   height: 3px;
   border-radius: 1px;
-  background-color: #fff;
+  background-color: #fafafa;
   display: block;
   transition: all 150ms;
 `;
@@ -66,13 +66,13 @@ export const Container = styled.div<ContainerProps>`
   align-items: center;
 
   li:nth-child(${(props): number => props.tab}) a {
-    color: #64f4ac;
+    color: #808080;
   }
 
   p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
-    color: #fff;
+    color: #fafafa;
   }
 
   li {

@@ -43,6 +43,6 @@ export const Button = styled.button<{ color?: string; fontColor?: string }>`
   h1 {
     font-size: 20px;
     padding-left: 10px;
-    color: ${(props) => props.fontColor || '#fff'};
+    color: ${(props) => props.fontColor || '#fafafa'};
   }
 `;

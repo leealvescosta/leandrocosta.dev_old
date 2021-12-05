@@ -12,8 +12,8 @@ export const StyledButton = styled.button<ButtonProps>`
   padding: 10px;
   border-radius: 6px;
   background: none;
-  border: 2px solid #64f4ac;
-  color: #64f4ac;
+  border: 2px solid #383838;
+  color: #383838;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 20px;

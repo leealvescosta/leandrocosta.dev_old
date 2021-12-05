@@ -29,7 +29,7 @@ export const Contact = styled.section`
     margin-top: 6px;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #fafafa;
   }
 
   p {
@@ -66,7 +66,7 @@ export const SocialMedia = styled.aside`
 export const CopyToClipBoard = styled.div`
   display: flex;
   align-items: center;
-  color: #fff;
+  color: #fafafa;
 `;
 
 export const Form = styled.form<FormProps>`
@@ -80,7 +80,7 @@ export const Form = styled.form<FormProps>`
 
   input::placeholder,
   textarea::placeholder {
-    color: #ababab;
+    color: #fafafa;
   }
 
   br + input {
@@ -99,8 +99,8 @@ export const Form = styled.form<FormProps>`
     font-size: 20px;
     border: 0;
     border-radius: 6px;
-    color: #fff;
-    background-color: #6473f5;
+    color: #fafafa;
+    background-color: #343434;
     font-weight: 700;
     padding: 6px 14px;
     transition: background-color 200ms;
@@ -117,7 +117,7 @@ export const Form = styled.form<FormProps>`
   }
 
   button:hover {
-    background-color: #8692ff;
+    background-color: #606060;
   }
 
   @media (max-width: 950px) {

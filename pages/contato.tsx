@@ -54,8 +54,8 @@ export default function Contato(): JSX.Element {
 
     toast.info('📤 Enviando e-mail...', {
       position: 'top-right',
-      autoClose: 4000,
-      hideProgressBar: false,
+      autoClose: 800,
+      hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
@@ -84,7 +84,7 @@ export default function Contato(): JSX.Element {
           });
         } else {
           toast.error('😓 Erro ao enviar o e-mail', {
-            position: 'top-center',
+            position: 'top-right',
             autoClose: 4000,
             hideProgressBar: false,
             closeOnClick: true,

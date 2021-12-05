@@ -43,8 +43,6 @@ const NavBar: React.FC = () => {
       handleNewTab(3);
     } else if (pathname === '/portfolio') {
       handleNewTab(2);
-    } else if (pathname === '/blog') {
-      handleNewTab(1);
     } else {
       handleOpen(true);
     }
@@ -68,23 +66,18 @@ const NavBar: React.FC = () => {
         <ul>
           {theme === 'dark' ? (
             <TiAdjustBrightness
-              size={22}
-              color="#F1FA8C"
+              size={26}
+              color="#FAFAFA"
               onClick={changeTheme}
             />
           ) : (
-            <TiAdjustContrast size={22} color="#F1FA8C" onClick={changeTheme} />
+            <TiAdjustContrast size={26} color="#FAFAFA" onClick={changeTheme} />
           )}
           <li>
             <Link href="/portfolio">
               <a>portfolio</a>
             </Link>
           </li>
-          {/* <li>
-            <Link href="/blog">
-              <a>blog</a>
-            </Link>
-          </li> */}
           <li>
             <Link href="/contato">
               <a>contato</a>
