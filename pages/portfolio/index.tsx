@@ -11,31 +11,27 @@ export default function Portfolio(): JSX.Element {
         <meta name="og:title" property="og:title" content="Portfolio" />
         <meta
           name="description"
-          content="Graduação, experiências e meus projetos"
+          content="Graduation, experiencies and projects"
         />
       </Head>
       <Container>
-        <h1>Experiências | Qualificações</h1>
+        <h1>Experiencies | Qualifications</h1>
         <strong>
-          - Graduação:
-          <span>
-            {' '}
-            Graduado em Análise e Desenvolvimento de Sistemas no IFMT
-          </span>
+          - Graduation:
+          <span> Graduated in Systems Analysis and Development at IFMT</span>
         </strong>
         <strong>
           - Freelancer:
           <span>
             {' '}
-            Atuo como desenvolvedor freelancer web e mobile com Flutter desde
-            fevereiro de 2019
+            Working as a Freelancer creating apps and websites since 2019.
           </span>
         </strong>
         <strong>
-          - Emprego atual:
+          - Working Actually:
           <span>
             {' '}
-            Trabalho como Quality Process Analyst na{' '}
+            Working as QA Analyst at{' '}
             <a
               href="https://sicredi.com.br/"
               target="_blank"
@@ -43,8 +39,8 @@ export default function Portfolio(): JSX.Element {
             >
               Sicredi
             </a>{' '}
-            com foco na criação e melhorias de processos internos e automações
-            com{' '}
+            focused on creating and improving internal processes from scratch
+            and automation's with{' '}
             <a
               href="https://uipath.com/"
               target="_blank"
@@ -56,10 +52,10 @@ export default function Portfolio(): JSX.Element {
           </span>
         </strong>
         <strong>
-          - Empregos anteriores:
+          - Others works:
           <span>
             {' '}
-            Fui Office Manager na{' '}
+            Office Manager at{' '}
             <a
               href="https://novo.campoverde.mt.gov.br/"
               target="_blank"
@@ -67,23 +63,23 @@ export default function Portfolio(): JSX.Element {
             >
               Prefeitura Municipal de Campo Verde
             </a>{' '}
-            onde atuava na tributação Municipal, assim como levantamentos
-            estratégicos e inovação.
+            Worked in Municipal taxation, as well as surveys strategic and
+            innovation.
           </span>
         </strong>
 
-        <h1>Projetos</h1>
+        <h1>Projects</h1>
 
         <Project>
           <img src="/assets/crescer.png" alt="Plataforma Crescer - Sicredi" />
           <Text>
             <strong>
-              - Função:
-              <span> Desenvolvedor Web</span>
+              - Function:
+              <span> Web Developer</span>
             </strong>
             <br />
             <strong>
-              - Descrição:
+              - Description:
               <span>
                 {' '}
                 <a
@@ -93,31 +89,31 @@ export default function Portfolio(): JSX.Element {
                 >
                   Programa Crescer
                 </a>{' '}
-                é uma plataforma de aprendizado onde novos associados Sicredi
-                aprendem mais sobre o Cooperativismo e como sua parte faz
-                diferença (feito com PHP + MySQL).
+                is a learning platform where new Sicredi associates learn more
+                about Cooperativism and how their part makes difference (made
+                with PHP + MySQL).
               </span>
             </strong>
           </Text>
         </Project>
 
         <Project>
-          <img src="/assets/costa.png" alt="leandrocosta.dev logo" />
+          <img src="/assets/Logo nbg.png" alt="leandrocosta.dev logo" />
           <Text>
             <strong>
-              - Função:
-              <span> Desenvolvedor Fullstack</span>
+              - Function:
+              <span> Developer</span>
             </strong>
             <br />
             <strong>
-              - Descrição:
+              - Description:
               <span>
                 {' '}
                 <a href="/" target="_blank" rel="noopener noreferrer">
                   Leandro Costa Dev
                 </a>{' '}
-                é o site que você está acessando. Criado zero absoluto, desde a
-                concepção da arquitetura, design e desenvolvimento com NextJS.
+                this website. Absolute zero has been created since architecture
+                conception, design and development with NextJS.
               </span>
             </strong>
           </Text>

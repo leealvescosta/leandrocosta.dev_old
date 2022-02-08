@@ -18,7 +18,7 @@ export default function Home(): JSX.Element {
         <meta name="og:title" property="og:title" content="Leandro Costa" />
         <meta
           name="description"
-          content="Leandro Costa, Desenvolvedor Web e Mobile, formado em Analise e Desenvolvimento de Sistemas pelo IFMT, atualmente trabalhando como Quality Process Analyst na Sicredi Vale do Cerrado."
+          content="Leandro Costa, Web and Mobile Developer, graduated in Systems Analysis and Development at IFMT, currently working as QA Analyst at Sicredi."
         />
       </Head>
       <Container>
@@ -52,12 +52,12 @@ export default function Home(): JSX.Element {
           <RightText>
             <h1>Developer</h1>
             <h2>
-              Trabalho no desenvolvimento de aplicações web e mobile com foco na
-              experiência do usuário.
+              Working on development web and mobile focusing on user experience.
             </h2>
             <p id="green-text">
-              Tecnologias: PowerBi, JavaScript, TypeScript, NodeJS, NextJS,
-              Flutter, React Native e Servidores Linux (Apache e Nginx)
+              Stacks: Dart, Flutter, JavaScript, NextJS, NodeJS, React, React
+              Native, automation's With UiPath, Power Bi Analysis and Linux
+              Server.
             </p>
           </RightText>
         </Hello>

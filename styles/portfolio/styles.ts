@@ -60,7 +60,7 @@ export const Project = styled.section`
 
   img {
     width: 140px;
-    height: 120px;
+    height: 140px;
     border-radius: 6px;
     display: inline;
     margin-right: 15px;

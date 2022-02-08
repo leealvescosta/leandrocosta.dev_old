@@ -35,7 +35,7 @@ export default function Contato(): JSX.Element {
       formData.subject === '' ||
       formData.description === ''
     ) {
-      toast('📝 Favor preencher todos os campos', {
+      toast('📝 Please, fill all fields!', {
         position: 'top-right',
         autoClose: 4000,
         hideProgressBar: false,
@@ -52,7 +52,7 @@ export default function Contato(): JSX.Element {
       return;
     }
 
-    toast.info('📤 Enviando e-mail...', {
+    toast.info('📤 Sending mail...', {
       position: 'top-right',
       autoClose: 800,
       hideProgressBar: true,
@@ -72,7 +72,7 @@ export default function Contato(): JSX.Element {
     })
       .then((response) => {
         if (response.status === 200) {
-          toast.success('🚀 E-mail enviado com sucesso!', {
+          toast.success('🚀 Mail has been sended!', {
             position: 'top-right',
             autoClose: 4000,
             hideProgressBar: false,
@@ -83,7 +83,7 @@ export default function Contato(): JSX.Element {
             bodyStyle: { fontFamily: 'Source Sans Pro', fontSize: 16 },
           });
         } else {
-          toast.error('😓 Erro ao enviar o e-mail', {
+          toast.error('😓 Error mail not sended', {
             position: 'top-right',
             autoClose: 4000,
             hideProgressBar: false,
@@ -104,7 +104,7 @@ export default function Contato(): JSX.Element {
         setLoading(0);
       })
       .catch(() => {
-        toast.error('😓 Erro ao enviar o e-mail', {
+        toast.error('😓 Error mail not sended', {
           position: 'top-right',
           autoClose: 4000,
           hideProgressBar: false,
@@ -126,7 +126,7 @@ export default function Contato(): JSX.Element {
         <meta name="og:title" property="og:title" content="Fale comigo..." />
         <meta
           name="description"
-          content="Meu E-mail, Instagram, GitHub e LinkedIn"
+          content="Mail, Instagram, GitHub and LinkedIn"
         />
       </Head>
       <Container>
@@ -164,16 +164,16 @@ export default function Contato(): JSX.Element {
           </SocialMedia>
         </Contact>
         <Form onSubmit={onHandleSubmit} loading={loading}>
-          <h1>Fale comigo ...</h1>
-          <input type="text" name="name" placeholder="Nome" />
+          <h1>Speak with me ...</h1>
+          <input type="text" name="name" placeholder="Name" />
           <br />
-          <input type="email" name="email" placeholder="E-mail" />
+          <input type="email" name="email" placeholder="Mail" />
           <br />
-          <input type="text" name="subject" placeholder="Assunto" />
+          <input type="text" name="subject" placeholder="Subject" />
           <br />
-          <textarea name="description" placeholder="Descrição" cols={80} />
+          <textarea name="description" placeholder="Description" cols={80} />
           <br />
-          <button type="submit">enviar</button>
+          <button type="submit">send</button>
         </Form>
         <ToastContainer
           position="top-center"
