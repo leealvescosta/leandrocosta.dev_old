@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import Head from 'next/head';
+import React from 'react';
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 import {
