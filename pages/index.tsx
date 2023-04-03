@@ -18,7 +18,7 @@ export default function Home(): JSX.Element {
         <meta name="og:title" property="og:title" content="Leandro Costa" />
         <meta
           name="description"
-          content="Leandro Costa, Web and Mobile Developer, graduated in Systems Analysis and Development at IFMT, currently working as QA Analyst at Sicredi."
+          content="Leandro Costa, Web and Mobile Developer, graduated in Systems Analysis and Development at IFMT, currently working as QA Advisor at Sicredi."
         />
       </Head>
       <Container>

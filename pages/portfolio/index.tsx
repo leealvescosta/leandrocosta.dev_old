@@ -24,14 +24,14 @@ export default function Portfolio(): JSX.Element {
           - Freelancer:
           <span>
             {' '}
-            Working as a Freelancer creating apps and websites since 2019.
+            Working as a Freelancer creating apps and websites since 2016.
           </span>
         </strong>
         <strong>
           - Working Actually:
           <span>
             {' '}
-            Working as QA Analyst at{' '}
+            Working as QA Adivisor at{' '}
             <a
               href="https://sicredi.com.br/"
               target="_blank"
