@@ -19,13 +19,13 @@ export default function Home(): JSX.Element {
         <meta name="og:title" property="og:title" content="Leandro Costa" />
         <meta
           name="description"
-          content="Leandro Costa, Web and Mobile Developer, graduated in Systems Analysis and Development at IFMT, currently working as QA Advisor at Sicredi."
+          content="Leandro Costa, RPA Developer and Data Analyst, graduated in Systems Development at IFMT, currently working as Process Assessor at Sicredi."
         />
       </Head>
       <Container>
         <Hello>
           <Left>
-            <img src="/assets/profile.jpg" alt="It's me, Leandro Costa!" />
+            <img src="/assets/me.jpg" alt="It's me, Leandro Costa!" />
             <SocialMedia>
               <a
                 href="https://www.instagram.com/leandrocosta.dev/"
@@ -51,14 +51,20 @@ export default function Home(): JSX.Element {
             </SocialMedia>
           </Left>
           <RightText>
-            <h1>Developer</h1>
+            <h1>RPA Developer</h1>
             <h2>
-              Working on development web and mobile focusing on user experience.
+              Working as Process Assessor at{' '}
+              <a
+                href="https://www.sicredi.com.br/coop/valedocerrado/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sicredi
+              </a>
             </h2>
             <p id="green-text">
-              Stacks: Dart, Flutter, JavaScript, NextJS, NodeJS, React, React
-              Native, automation's With UiPath, Power Bi Analysis and Linux
-              Server.
+              Stacks: UiPath, Python, Data Analysis, Flutter, JavaScript,
+              NextJS, NodeJS and Linux Servers.
             </p>
           </RightText>
         </Hello>

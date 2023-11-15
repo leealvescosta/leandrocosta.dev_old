@@ -79,7 +79,7 @@ const NavBar: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="/contato">
+            <Link href="/contact">
               <a>contact</a>
             </Link>
           </li>
